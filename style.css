@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header {
+  width:100%;
+  background: #3b5999;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.word {
+  margin-top: 3rem;
+  font-size: 56px;
+  color: #3b5999;
+}
+
+.input-box{
+  margin-top: 2rem;
+}
+
+.input-box input{
+  padding:0.5rem;
+  width:300px;
+}
+
+.input-box input[readonly]{
+  background: #ccc;
+  border:1px solid black;
+}
+
+.game-info {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.time, .score{
+  font-size:30px;
+}
+
+button:focus{
+  outline: none;
+}
+
+.btn{
+  width:200px;
+  height: 35px;
+  background: #3b5999;
+  color:#fff;
+  border: none;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.loading {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.phone{
+  width: 100vw;
+  height: 170vh;
+  background-color: rgba(0,0,0);
+  position: absolute;
+  color:white;
+  display:none;
+}
+
+.zzz{
+  display:none;
+}
+
+@media only screen and (max-width: 768px) {
+  .phone{
+    display:block;
+  }
+  .zzz{
+    display:block;
+    color:white;
+    z-index: 1;
+    font-size: 70px;
+  }
+}
+
+
+
+
+
+
+
