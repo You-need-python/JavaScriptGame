@@ -91,7 +91,7 @@ button:focus{
     display:block;
     color:white;
     z-index: 1;
-    font-size: 70px;
+    font-size: 40px;
   }
 }
 
